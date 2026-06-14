@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.price_card {
+    margin: 10px;
+
+}
+
+.price_card__tittle {
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+
+
+}
+
+
+.price_card__container {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+
+}
+
+.Features {
+    background-color: black;
+    color: bisque;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    gap: 20px;
+    height: 100%;
+
+}
+
+.Features1 {
+    background-color: black;
+    color: bisque;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    gap: 20px;
+    height: 100%;
+}
+
+
+.Features2 {
+    background-color: black;
+    color: bisque;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    gap: 20px;
+    height: 100%;
+}
+
+.price_card__container p {
+    margin: 10px;
+}
+
+
+
+.Features,
+.Features1,
+.Features2 {
+    background-color: black;
+    color: bisque;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 20px;
+    height: 100%;
+
+
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.35);
+}
+
+
+
+.Features:hover {
+    background-color: blue;
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+
+.Features1:hover {
+    background-color: blue;
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+
+
+.Features2:hover {
+    background-color: blue;
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
